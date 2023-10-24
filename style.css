@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+h1 {
+    font-family: 'Gabarito', cursive;
+    background-color: rgba(20, 5, 43, 0.574);
+    border: 2px solid rgb(135, 78, 132);
+    font-size: 55px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 15px;
+    color: aliceblue;
+    box-shadow: 5px 5px 10px rgba(255, 250, 255, 0.27);
+}   
+
+body {
+    background-image: linear-gradient(rgba(16, 0, 62, 0.498),rgba(69, 0, 47, 0.503)), url(https://st5.depositphotos.com/31662992/63282/i/450/depositphotos_632823170-stock-photo-generative-illustration-gaming-background-abstract.jpg);
+    align-items: center;
+    text-align: center;
+    background-repeat: repeat;
+    background-size: 100% auto;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+}
+
+/* cambios checho */
+
+.contain_games{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 55px 55px;
+    gap: 40px ;
+    box-shadow: 5px 5px 10px rgba(255, 250, 255, 0.499);
+    color: aliceblue;
+
+}
+
+.game p{
+    padding-left: 20px;
+    font-size: 19px;
+    color: #ffffff;
+}
+
+.game {
+    position: relative; /* Establece la posición relativa para que los botones se posicionen dentro de este elemento */
+    background-color: rgba(34, 18, 53, 0.814);
+    border: 3px solid rgb(135, 78, 132);
+    border-radius: 10px;
+    text-align: initial;
+    padding: 20px;
+    display: flex; /* Usa flexbox para controlar la distribución de contenido */
+    flex-direction: row;
+    box-shadow: 5px 5px 10px rgba(255, 250, 255, 0.499);
+    color: aliceblue;
+
+}
+
+/* Estilo para la imagen */
+.game img {
+    max-width: 40%;
+    max-height: 100%;
+    object-fit: cover;
+    border: 3px solid black;
+    box-shadow: 5px 5px 10px rgba(91, 82, 255, 0.295);
+}
+
+/* Estilo para el botón de compra */
+.b_comprar {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    padding: 5px 10px;
+    background-color: #7822a7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(51, 1, 51, 0.499);
+
+}
+
+/* Cambios para el botón "Comprado" */
+.b_comprar.comprado {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+    .menu li{
+        display: flex;/*es para que se utilize en varios*/
+        justify-content: space-evenly;/*darle un espaciado en la misma linea*/   
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #fff;    }

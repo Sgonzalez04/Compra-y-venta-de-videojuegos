@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+body {
+    background-image: linear-gradient(rgba(16, 0, 62, 0.498),rgba(69, 0, 47, 0.503)), url(https://st5.depositphotos.com/31662992/63282/i/450/depositphotos_632823170-stock-photo-generative-illustration-gaming-background-abstract.jpg);
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Gabarito', cursive;
+    background-color: rgba(40, 5, 43, 0.574);
+    border: 2px solid rgb(100, 78, 135);
+    border-style: solid;
+    font-size: 55px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(255, 250, 255, 0.499);
+    color: aliceblue;
+}
+
+.options{
+    padding-top: 30px;
+}
+
+.options button{
+    margin: 0px 20px;
+}
+
+select {background-color: black;}
+
+
+#add{
+    display: none;
+}
+
+#add button{
+    margin: 20px;
+}
+
+.add_game{
+    display: flex;
+    justify-content: center;
+}
+
+/* agregar nuevo */
+.info_game{
+    display: grid;
+    background-color: rgba(42, 7, 14, 0.778);
+    border-radius: 5%;
+    border-color: rgb(149, 102, 82);
+    border-style: solid;
+    background-size: cover;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px;
+    width: 40%;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+p{
+    font-size: 19px;
+}
+
+.contain_games{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 35px 55px;
+    gap: 40px ;
+}
+
+.game{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: start;
+    background-color: rgba(47, 18, 53, 0.814);
+    border: 3px solid rgb(97, 78, 135);
+    border-radius: 10px;
+    align-items: center;
+    text-align: initial;
+    height: 280px;
+    box-shadow: 5px 5px 10px rgba(255, 250, 255, 0.499);
+    color: aliceblue;
+}
+
+.game p{
+    padding-left: 20px;
+}
+
+.contain_img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.game img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.game button, .game input{
+    margin: 2px 20px;
+    height: 30px;
+}
+
+.game label{
+    margin: 10px 20px;
+    text-wrap: nowrap;
+
+}
+
+button{
+    background-color: rgba(11, 4, 31, 0.687);
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(90, 8, 133, 0.307);
+    color: aliceblue;
+}
+
+label{
+    font-size: 22px;
+    color: aliceblue;
+}
+
+select{
+    font-size: 18px;
+    font-family: 'Exo 2', sans-serif;
+    color: aliceblue;
+    background-image: linear-gradient(rgba(16, 0, 62, 0.498),rgba(69, 0, 47, 0.503)), url(https://st5.depositphotos.com/31662992/63282/i/450/depositphotos_632823170-stock-photo-generative-illustration-gaming-background-abstract.jpg);
+
+}
+
+input{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    height: 40px;
+    color:aliceblue;
+    background-image: linear-gradient(rgba(16, 0, 62, 0.498),rgba(69, 0, 47, 0.503)), url(https://st5.depositphotos.com/31662992/63282/i/450/depositphotos_632823170-stock-photo-generative-illustration-gaming-background-abstract.jpg);
+}
+
+    .menu li{
+        display: flex;/*es para que se utilize en varios*/
+        justify-content: space-evenly;/*darle un espaciado en la misma linea*/   
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #fff;}

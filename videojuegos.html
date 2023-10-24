@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoJuegos</title>
+    <link rel="stylesheet" href="videojuegos.css">
+</head>
+<body>
+    <div class="container-fluid menu">
+        <ul>
+            <li>
+                <a href="cliente.html"><h2>Clientes</h2></a>
+                <a href="index.html"><h2>Compra y venta de juegos</h2></a>
+                <a href="videojuegos.html"><h2>Agregar videojuegos</h2></a>
+            </li>
+        </ul>  
+    </div>
+    <h1>Libreria Videojuegos Campuslands</h1>
+    <div class="options">
+        <label>Ordenar por: </label>
+        <select name="" id="sort" onchange="sorted(this.value)">
+            <option value="1">Titulo</option>
+            <option value="2">Puntos</option>
+            <option value="3">Valor</option>
+            <option value="4">Genero</option>
+        </select>
+        <button onclick="show(`#add`,`#games`)">Agregar</button>
+    </div>
+    <section id="add">
+        <h2>Agregar Libro</h2>
+        <div class="add_game">
+            <div class="info_game">
+                <label>Titulo</label>
+                <input type="text" id="title">
+                <label>Link portada</label>
+                <input type="text" id="front" onchange="change_back(this.value)">
+                <label>Valor licencia</label>
+                <input type="text" id="valor">
+                <label>Genero</label>
+                <input type="text" id="genre">
+                <label>Puntos fidelizacion</label>
+                <input type="text" id="Puntos">
+            </div>
+            <div class="img_game"></div>
+            
+        </div>
+        
+        <button onclick="add_game()">Agregar</button>
+        <button onclick="show(`#games`,`#add`)">Volver atras</button>
+    </section>
+
+    <section id="games">
+        <div class="contain_games"></div>
+    </section>
+    
+    <script src="videojuegos.js"></script>
+</body>
+</html>

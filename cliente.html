@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cliente.css">
+</head>
+<body>
+    <div class="container-fluid menu">
+        <ul>
+            <li>
+                <a href="cliente.html"><h2>Clientes</h2></a>
+                <a href="index.html"><h2>Compra y venta de juegos</h2></a>
+                <a href="videojuegos.html"><h2>Agregar videojuegos</h2></a>
+            </li>
+        </ul>  
+    </div>
+    <h1>Registrador de clientes</h1>
+    <p>Numero de identificación: <input type="text" id="identificacion"></p>
+    <p>Nombres: <input type="text" id="nombres"></p>
+    <p>Apellidos: <input type="text" id="apellidos"></p>
+    <p>Teléfono: <input type="text" id="telefono"></p>
+    <p>Correo electrónico: <input type="text" id="correo"></p>
+    <p>Fecha de nacimiento: <input type="text" id="nacimiento"></p>
+    <p>Nacionalidad: <input type="text" id="nacionalidad"></p>
+    <button onclick="agregar_Cliente()">Agregar</button>
+    <section id="clientes">
+        <div class="contain_clientes"></div>
+    </section>
+    <script src="clientes.js"></script>
+</body>
+</html>

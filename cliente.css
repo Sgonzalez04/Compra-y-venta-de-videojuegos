@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+body {
+    background-image: linear-gradient(rgba(16, 0, 62, 0.498),rgba(69, 0, 47, 0.503)), url(https://st5.depositphotos.com/31662992/63282/i/450/depositphotos_632823170-stock-photo-generative-illustration-gaming-background-abstract.jpg);
+    align-items: center;
+    text-align: center; 
+    background-repeat: repeat;
+    background-size: 100% auto;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    color: aliceblue;
+    
+}
+
+h1 {
+    font-family: 'Gabarito', cursive;
+    background-color: rgba(36, 5, 43, 0.574);
+    border: 2px solid rgb(81, 78, 135);
+    font-size: 55px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 15px;
+    color: aliceblue;
+    box-shadow: 5px 5px 10px rgba(255, 250, 255, 0.27);
+}
+
+.contain_clientes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px 50px;
+    gap: 40px;
+    border: 3px;
+    color: aliceblue;
+    box-shadow: 5px 5px 10px rgba(255, 250, 255, 0.27);
+}
+
+.contain_clientes div {
+    background-color: rgba(34, 18, 53, 0.814); /* Cambia el color de fondo a uno de tu elección */
+    border: 3px solid rgb(135, 78, 132);
+    border-radius: 10px;
+    text-align: initial;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(255, 250, 255, 0.499);
+    color: aliceblue;
+}
+
+    .menu li{
+        display: flex;/*es para que se utilize en varios*/
+        justify-content: space-evenly;/*darle un espaciado en la misma linea*/   
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #fff;    }
+
+/* Estilos para párrafos */
+p {
+    margin: 10px 0; /* Agrega un margen superior e inferior para separar los párrafos */
+}
+
+/* Estilos para campos de entrada */
+input {
+    margin-bottom: 5px; /* Agrega un margen inferior para separar los campos de entrada */
+    padding: 5px; /* Agrega un poco de relleno a los campos de entrada */
+}
